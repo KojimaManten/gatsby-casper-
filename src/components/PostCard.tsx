@@ -74,7 +74,7 @@ export const PostCard: React.FC<PostCardProps> = ({ post, large = false }) => {
             <span className="post-card-byline-date">
               <time dateTime={datetime}>{displayDatetime}</time>{' '}
               <span className="bull">&bull;</span> {post.timeToRead} min read
-            </span>いいい
+            </span>
           </PostCardBylineContent>
         </PostCardMeta>
       </PostCardContent>

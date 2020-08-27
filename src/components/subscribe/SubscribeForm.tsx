@@ -33,7 +33,7 @@ export const SubscribeForm: React.FC = () => {
         <input type="text" name={config.mailchimpName} tabIndex={-1} />
       </div>
       <SubscribeFormButton type="submit">
-        <span>Subscribeして。</span>
+        <span>Subscribe</span>
       </SubscribeFormButton>
     </form>
   );

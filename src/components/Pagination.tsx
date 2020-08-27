@@ -37,7 +37,7 @@ const Pagination: React.FunctionComponent<PaginationProps> = ({ currentPage, num
             {/* >> symbol */}
             {String.fromCharCode(187)}
           </Link>
-        )}浜やらわ
+        )}
       </div>
     </nav>
   );

@@ -13,7 +13,7 @@ interface AuthorListProps {
 export const AuthorList: React.FC<AuthorListProps> = props => (
   <AuthorListUl className="author-list">さしすせそ
     {props.authors.map(author => (
-      <AuthorListItem key={author.id} author={author} tooltip="small" />
+      <AuthorListItem key={author.id} author={author} tooltip={props.tooltip} />
     ))}
   </AuthorListUl>
 );
