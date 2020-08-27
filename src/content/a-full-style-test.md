@@ -1,14 +1,18 @@
 ---
 layout: post
-title: A Full and Comprehensive Style Test
+title: sample
 image: img/testimg-cover.jpg
-author: [Ghost]
-date: 2018-09-30T07:03:47.149Z
+author: 
+  - 小島満天
 tags:
-  - Tests
+  - react
+  - gatsby
+date: 2020-08-18
+excerpt: お試し
+draft: false
 ---
 
-Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
+あああああ
 
 ---
 

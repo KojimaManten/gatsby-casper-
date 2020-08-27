@@ -22,7 +22,7 @@ export interface PostContentProps {
 
 const PostContent: React.FC<PostContentProps> = ({ htmlAst }) => {
   return (
-    <PostFullContent className="post-full-content">
+    <PostFullContent className="post-full-content">ぬぽ
       {/* TODO: this will apply the class when rehype-react is published https://github.com/rhysd/rehype-react/pull/11 */}
       <Ast className="post-content" ast={htmlAst} />
     </PostFullContent>

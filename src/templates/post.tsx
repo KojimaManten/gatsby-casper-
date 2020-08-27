@@ -192,7 +192,7 @@ const PageTemplate = ({ data, pageContext, location }: PageTemplateProps) => {
                     </Link>
                   )}
                 </PostFullTags>
-                <PostFullTitle className="post-full-title">{post.frontmatter.title}</PostFullTitle>
+                <PostFullTitle className="post-full-title">{post.frontmatter.title}いいい</PostFullTitle>
                 <PostFullCustomExcerpt className="post-full-custom-excerpt">
                   {post.frontmatter.excerpt}
                 </PostFullCustomExcerpt>
@@ -226,26 +226,26 @@ const PageTemplate = ({ data, pageContext, location }: PageTemplateProps) => {
                     style={{ height: '100%' }}
                     fluid={post.frontmatter.image.childImageSharp.fluid}
                     alt={post.frontmatter.title}
-                  />
+                  />　あああかかかk
                 </PostFullImage>
               )}
-              <PostContent htmlAst={post.htmlAst} />
+              {/* <PostContent htmlAst={post.htmlAst} /> */}
 
               {/* The big email subscribe modal content */}
               {config.showSubscribe && <Subscribe title={config.title} />}
             </article>
           </div>
-        </main>
+        </main>うううううう
 
         <ReadNext
           currentPageSlug={location.pathname}
           tags={post.frontmatter.tags}
           relatedPosts={data.relatedPosts}
           pageContext={pageContext}
-        />
+        />ああああああああ
 
-        <Footer />
-      </Wrapper>
+        <Footer />ええええええ
+      </Wrapper>おおおおお
     </IndexLayout>
   );
 };

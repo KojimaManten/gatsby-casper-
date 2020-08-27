@@ -30,7 +30,7 @@ export const PostCard: React.FC<PostCardProps> = ({ post, large = false }) => {
         large ? 'post-card-large' : ''
       }`}
       css={[PostCardStyles, large && PostCardLarge]}
-    >
+    >おほほ
       {post.frontmatter.image && (
         <Link className="post-card-image-link" css={PostCardImageLink} to={post.fields.slug}>
           <PostCardImage className="post-card-image">
@@ -43,19 +43,19 @@ export const PostCard: React.FC<PostCardProps> = ({ post, large = false }) => {
             )}
           </PostCardImage>
         </Link>
-      )}
+      )}おほほ
       <PostCardContent className="post-card-content">
         <Link className="post-card-content-link" css={PostCardContentLink} to={post.fields.slug}>
           <PostCardHeader className="post-card-header">
             {post.frontmatter.tags && (
               <PostCardPrimaryTag className="post-card-primary-tag">
-                {post.frontmatter.tags[0]}
+                {post.frontmatter.tags[0]}ピピぴ
               </PostCardPrimaryTag>
             )}
-            <PostCardTitle className="post-card-title">{post.frontmatter.title}</PostCardTitle>
+            <PostCardTitle className="post-card-title">{post.frontmatter.title}ああああ</PostCardTitle>
           </PostCardHeader>
           <PostCardExcerpt className="post-card-excerpt">
-            <p>{post.frontmatter.excerpt || post.excerpt}</p>
+            <p>{post.frontmatter.excerpt || post.excerpt}っせっせ</p>
           </PostCardExcerpt>
         </Link>
         <PostCardMeta className="post-card-meta">
@@ -74,7 +74,7 @@ export const PostCard: React.FC<PostCardProps> = ({ post, large = false }) => {
             <span className="post-card-byline-date">
               <time dateTime={datetime}>{displayDatetime}</time>{' '}
               <span className="bull">&bull;</span> {post.timeToRead} min read
-            </span>
+            </span>いいい
           </PostCardBylineContent>
         </PostCardMeta>
       </PostCardContent>

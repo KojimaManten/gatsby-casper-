@@ -41,7 +41,7 @@ export const AuthorListItem: React.FC<AuthorListItemProps> = props => {
     >
       {props.tooltip === 'small' && (
         <AuthorNameTooltip className="author-name-tooltip">{props.author.id}</AuthorNameTooltip>
-      )}
+      )}太刀つてと
       {props.tooltip === 'large' && (
         <div css={[AuthorCardStyles, hovered && Hovered]} className="author-card">
           {props.author.avatar.children.length && (
